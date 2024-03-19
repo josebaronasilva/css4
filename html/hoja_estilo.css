@@ -1,0 +1,49 @@
+.menu {background-color: black;color: white;text-align: center;padding: 10px 0; text-decoration: underline;}
+.menu ul {list-style-type: none;padding: 0;}
+.menu ul li {display: inline;margin-right: 20px;}
+.menu ul li a {color: white;text-decoration:double; text-align: center;font-style: italic;}
+.menu ul li a:hover {color: rgb(234, 15, 15);}
+.bodymusicgenius {background-color: rgb(244, 237, 54);font-family: Arial, sans-serif;margin: 0;padding: 0;}
+#headermusicgenius {background-color: black;color: white;text-align: center;padding: 20px ;}
+#headermusicgenius > h1{font-family: 'Times New Roman'; text-decoration: double;}
+#footermusicgenius {background-color: black;color: white;text-align: center;padding: 10px 0;bottom: 0;width: 100%;}
+audio{background-color: rgb(255, 230, 0); color: rgba(137, 43, 226, 0.882);}
+.contentmusicgenius {padding: 20px; font-family: Georgia, 'Times New Roman', Times, serif;}
+.contentmusicgenius #article1 {background-color: #06f80e;margin-bottom: 20px;padding: 20px;border-radius: 10px; width: 40%;}
+.contentmusicgenius #article2 {background-color: #e55124;margin-bottom: 20px;padding: 20px;border-radius: 10px; width: 50%;}
+.contentmusicgenius #article3 {background-color: #32dce5;margin-bottom: 20px;padding: 20px;border-radius: 10px; width: 60%;}
+.contentmusicgenius hr{height: 10px; background-color: #e524a8;}
+.aside {background-color: #dfe6e9;padding: 20px;border-radius: 10px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+.aside figure > img{width:50%;}
+.aside figure > figcaption{text-align: left;}
+.tablemusicgenius {width: 100%;margin-top: 20px;border-collapse: collapse;background-color: #0b0b0a;border-radius: 10px;overflow: hidden;box-shadow: 0 0 10px rgba(0, 0, 0, 0);}
+.tablemusicgenius th {background-color: #f70808;color: white;padding: 15px;text-align: center;border-right: 1px solid #ddd;font-weight: bold;text-transform: uppercase;}
+.tablemusicgenius td {padding: 15px;text-align: center;border-bottom: 1px; border-right: 1px solid #32dce5; background-color: #7747ee;}
+.tablemusicgenius tr:hover {background-color: #ffefc9;}
+.tablemusicgenius tr td{border-left: 1px;border-right: 1px;}
+.tablemusicgenius td.mark {background-color: #ffcc00;}
+.bodyobras {background-color: rgb(249, 5, 5);margin: 0;padding: 3px; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;}
+#headerobras {background-color: black;color: white;text-align: center;padding: 20px 0;}
+#footerobras {background-color:black;color: white;text-align: center;padding: 30px 0;bottom: 0;width: 100%;}
+.contentobras{background-color: darksalmon; color: black; text-align: center;}
+.bodyobras > p{font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: double;}
+.bodyobras ul {list-style-type: none;padding: 0;}
+.bodyobras ul li {display: inline;margin-right: 20px; margin-left: 20px;}
+.bodyobras ul li a {color: rgb(221, 245, 13);text-decoration: underline; text-align: center;font-style: italic;}
+.bodyobras ul li a:hover {color: rgb(245, 247, 246);}
+#headerobras details > p{padding: 10px; text-align: center;}
+.bodyartistas {background-color: rgb(5, 249, 82);font-family: Arial, sans-serif;margin: 0;padding: 0}
+#headerartistas {background-color: rgb(50, 5, 80);color: white;text-align: center;padding: 20px 0;}
+#footerartistas {background-color: rgb(50, 5, 80);color: white;text-align: center;padding: 10px 0;bottom: 0;width: 100%;}
+.contentartistas ul{text-align: center; text-decoration: double;}
+.contentartistas ul li > h2{font-family: Georgia, 'Times New Roman', Times, serif; text-decoration: underline; color: black; font-size: 40px;}
+.contentartistas ul li > h2:hover{color: #f70808;}
+.contentartistas ul li > h2:active{color: #32dce5;}
+.contentartistas ul li a > img{width: 300px; height: 300px;}
+.contentartistas ul li > p{margin-left: 20px; margin-right: 20px; text-align: center; font-family:Arial, Helvetica, sans-serif ;font-style: italic;}
+.contentartistas2{background-color:blue ; color: white; text-align: center;border-radius: 10px; padding: 20px;}
+.bodyformulario {background-color: rgb(234, 125, 172);font-family: Arial, sans-serif;margin: 0;padding: 0;}
+#headerformulario {background-color:black;color: white;text-align: center;padding: 20px 0;}
+#footerformulario {background-color:black;color: white;text-align: center;padding: 10px 0;bottom: 0;width: 100%;}
+.contentformulario{text-align: center;}
+.contentformulario form{text-align: center; border-radius: 10px; background-color: rgb(14, 62, 237); color: white;padding: 20px;margin-left: 15%; margin-right: 15%;}

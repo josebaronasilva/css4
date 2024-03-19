@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="hoja_estilo.css">
+</head>
+<body class="bodyformulario">
+    <header id="headerformulario">
+        <h1><b>Formulario de inscripción</b></h1>
+        <details>
+            <summary>Introducción al formulario</summary>
+            <p>Todo buen artista necesita un buen repertorio de obras de las que inspirarse y tomar referencia. Aquí te traemos las consideradas más influentes obras de la historia de la música para que tu repertorio artístico sea de lo más amplio.</p>
+        </details>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="music_genius.html">Inicio</a><br/></li>
+            <li><a href="lista_obras.html">Lista de obras históricas</a><br/></li>
+            <li><a href="lista_artistas.html">Artistas que deberías conocer</a><br/></li>
+            <li><a href="formulario.html">Formulario de inscripción</a><br/></li>
+        </ul>
+    </nav><hr/><br/><br/>
+    <section class="contentformulario">
+        <audio controls>
+            <source src="musica_de_ascensor.mp3" type="audio/mpeg">
+        </audio>
+        <form action="">
+            <table border="3">
+                <caption>
+                    <tr>
+                        <td colspan="2" align="center"><label for="usuario"> DNI:</label><input type="text" name="usuario" required  maxlength="10"/></td>
+                    </tr>
+                </caption>
+                <tr>
+                    <td align="left"><label for="Nombre"> Nombre</label></td>
+                    <td align="left"><input type="text"  name="Nombre"/></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="Apellidos">Apellidos</label></td>
+                    <td align="left"><input type="text"  name="Apellidos"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><label for="Email">Email:</label><input type="text" name="Email"/></td>
+                </tr>  
+                <tr>
+                    <td align="left"><label for="Sexo"> Sexo</label></td>
+                    <td align="left"><input type="radio"><label for="hombre">Hombre</label><input type="radio"><label for="mujer">Mujer</label><input type="radio" id="no binario"><label for="no binario">Prefiero no decirlo</label></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="fecha"> Fecha de Nacimiento</label></td>
+                    <td align="left"><input type="date" min="23-02-1994" max="23-02-2006">
+                </tr>
+                <tr>
+                    <td align="left"><label for="País">País</label></td>
+                    <td align="left"><input list="País"><datalist><option value="España"></option><option value="Argentina"></option><option value="Chile"></option><option value="Uruguay"></option><option value="México"></option></datalist></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="Número de teléfono">Número de teléfono:</label></td>
+                    <td align="left"><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <tr>
+                    <td align="left"><label for="comentario">Comentarios personales</label></td>
+                    <td align="left"><textarea name="comentario" rows="8" cols="40"></textarea></td>
+                </tr> 
+                <tr>
+                    <td align="left"><input type="reset" value="Resetear"></td>
+                    <td align="left"><input type="submit" value="Enviar"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="hidden" name="Modificar datos de usuario"/></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+        <br/><br/>
+    <footer id="footerformulario">
+        <p><u><b>Contacto: info@tuproyectomusical.com | © 2024 Tu Proyecto Musical</b></u></p>
+        <p>Esta página se hizo con fines didácticos.</p> 
+    </footer>
+</body>
+</html>
+
+
